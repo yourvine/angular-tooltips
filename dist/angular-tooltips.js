@@ -6,7 +6,7 @@
  * http://720kb.github.io/angular-tooltips
  * 
  * MIT license
- * Wed Jan 25 2017
+ * Sun Apr 23 2017
  */
 /*global angular,window*/
 (function withAngular(angular, window) {
@@ -821,7 +821,7 @@
     return {
       'restrict': 'A',
       'transclude': 'element',
-      'priority': 1,
+      'priority': 110,
       'terminal': true,
       'link': linkingFunction
     };
